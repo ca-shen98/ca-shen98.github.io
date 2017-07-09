@@ -1,0 +1,333 @@
+/* Links used
+ * Vertically center div: https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
+ * Footer on bottom: https://codepen.io/cbracco/pen/zekgx
+ */
+
+h1, h2, h3, h4, h5 {
+  margin: 1rem 0;
+}
+h4 {
+  font-weight: bolder;
+}
+h6 {
+  font-size: 1.67rem;
+  margin-bottom: 0.85rem;
+}
+p {
+  font-size: 1.5rem;
+  margin-bottom: 0.85rem;
+}
+select, select:focus {
+  background: rgba( 222, 222, 222, 0.67 );
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 3px;
+  display: block;
+  height: 32px;
+  margin: 0.85rem auto;
+  width: 100%;
+}
+.main-wrapper {
+  background: black;
+  box-sizing: border-box;
+  color: white;
+  display: table;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.page-wrapper {
+  box-sizing: content-box;
+  display: table;
+  height: calc(100% - 236px);
+  margin: 12px auto 224px;
+  position: relative;
+  width: calc(100% - 56px);
+}
+@media (min-width: 550px) {
+  .page-wrapper {
+    height: calc(100% - 108px);
+    margin: 12px auto 96px;
+    width: calc(100% - 120px);
+  }
+}
+@media (min-width: 750px) {
+  .page-wrapper {
+    width: calc(100% - 120px);
+  }
+}
+@media (min-width: 1200px) {
+  .page-wrapper {
+    width: calc(100% - 200px);
+  }
+}
+.container-wrapper {
+  background: rgba(0, 0, 0, 0); 
+  border: 0px solid white;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+}
+.container-wrapper .container {
+  width: calc(100% - 24px);
+  margin: 0 12px;
+  padding: 0;
+  max-width: none;
+}
+@media (min-width: 550px) {
+  .container-wrapper .container {
+    width: calc(100% - 48px);
+    margin: 0 24px;
+  }
+}
+.container-wrapper .row {
+  margin: 0;
+}
+.content-wrapper {
+  color: black;
+  display: none;
+}
+.content-header {
+  color: lightgrey;
+  text-shadow: 1px 1px 1px black;
+}
+.content-header span:hover, .content-header span.current:hover {
+  color: rgba( 0, 0, 0, 0.75 );
+  cursor: default;
+  text-shadow: none;
+}
+.content-header span.current {
+  color: black;
+  text-shadow: none;
+}
+.stickyhome {
+  box-sizing: border-box;
+  display: none;
+  height: 64px;
+  line-height: 64px;
+  padding: 2px 16px 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.stickyhome span.closebutton {
+  box-sizing: border-box;
+  color: gainsboro;
+  font-size: 3rem;
+  height: 20px;
+  line-height: 20px;
+  padding: 2px;
+  text-shadow: -1px -1px 1px gainsboro;
+}
+.stickyhome span.closebutton:hover {
+  border-bottom: 1px solid gainsboro;
+  cursor: pointer;
+  text-shadow: -1px 0px 1px white;
+}
+.portrait {
+  border: 2px solid gainsboro;
+  border-radius: 100%;
+  box-sizing: border-box;
+  display: block;
+  height: 150px;
+  margin: 15px auto 3px;
+  opacity: 1;
+  width: 150px;
+}
+@media (min-width: 550px) {
+  .portrait {
+    height: 175px;
+    width: 175px;
+  }
+}
+@media (min-width: 750px) {
+  .portrait {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  .portrait {
+    height: 225px;
+    width: 225px;
+  }
+}
+@media (min-width: 1200px) {
+  .portrait {
+    height: 250px;
+    width: 250px;
+  }
+}
+.navmenu {
+  bottom: 32px;
+  box-sizing: border-box;
+  height: 192px;
+  left: 0;
+  padding: 12px 0;
+  position: absolute;
+  right: 0;
+}
+@media (min-width: 550px) {
+  .navmenu {
+    height: 64px;
+  }
+}
+.navmenu-item, .navmenu-item:focus {
+  background: rgba(192, 192, 192, 0.25);
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1.25px solid white;
+  border-right: 1.25px solid white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  margin: 2px 0;
+  padding: 0 30px;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .navmenu-item, .navmenu-item:focus {
+    padding: 0 6px;
+  }
+}
+@media (min-width: 750px) {
+  .navmenu-item, .navmenu-item:focus {
+    padding: 0 30px;
+  }
+}
+.navmenu-item:hover, .navmenu-item.current:hover {
+  background: rgba(245, 245, 245, 0.5);
+  border-left: 1.5px solid white;
+  border-right: 1.5px solid white;
+  color: black;
+}
+.navmenu-item.current {
+  background: rgba(255, 255, 255, 0.75);
+  border-left: 1.5px solid white;
+  border-right: 1.5px solid white;
+  color: black;
+  font-weight: bolder;
+}
+.externallink {
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.externallink a {
+  color:gainsboro;
+  text-decoration: none;
+}
+.externallink a:hover {
+  text-decoration: underline;
+}
+.stickyfooter {
+  border-top: 1px solid silver;
+  box-sizing: border-box;
+  color: silver;
+  font-size: small;
+  height: 32px;
+  padding-top: 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Backgrounds */
+.landing_page-background {
+  background: black;
+  background-image: url("../images/background-landing.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.aboutme_page-background {
+  background: black;
+  background-image: url("../images/background-aboutme.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.experience_page-background {
+  background: black;
+  background-image: url("../images/background-experience.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.projects_page-background {
+  background: black;
+  background-image: url("../images/background-projects.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.shenanigans_page-background {
+  background: black;
+  background-image: url("../images/background-shenanigans.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Animate.css modification */
+.animated.zoomIn, .animated.zoomOut {
+  animation-duration: 0.25s;
+}
+
+.animated.fadeIn, .animated.fadeOut {
+  animation-duration: 0.4s;
+}
+
+.animated.rubberBand {
+  animation-duration: 0.5s;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(1, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(1, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1, 0.95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
