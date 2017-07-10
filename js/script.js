@@ -14,7 +14,7 @@ var CONTENT_MAP = {
         "<p>- Implemented a SQL debug editor component, interfacing with existing debugging functionality.</p>" +
         "<p>- Designed and developed revamped functionaltiy for the tabular data preview filtering features, taking into account big data considerations.</p>" +
         "<p>- Improved catalog browser control for viewing and selecting database connections and schema objects.</p>",
-        'UWaterloo': "<h6><b>Undergraduate Research Assistant | Department of ECE | Dr. Vincent Gaudent</b> - Jan to Apr 2017</h6>" +
+        'UWaterloo': "<h6><b>Undergraduate Research Assistant | Department of ECE | Dr. V. Gaudent</b> - Jan to Apr 2017</h6>" +
         "<h6>Improved scalability and performance of LDPC (low density parity check) and stochastic decoding and error checking algorithm simulation software in C by using OpenMP to increase parallelism.</h6>",
         'CRC': "<h6><b>Juniour Engineering | Network Applications</b> - Sep to Dec 2016</h6>" +
         "<h6>Developed and deployed Java, Python, and C# applications to leverage Apache Spark for the (Radio) Spectrum Environment Analysis testbed system, which was built within a Microsoft Azure cloud infrastructure.</h6>" +

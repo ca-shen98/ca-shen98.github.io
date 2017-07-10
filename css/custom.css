@@ -18,7 +18,7 @@ p {
   margin-bottom: 0.85rem;
 }
 select, select:focus {
-  background: rgba( 222, 222, 222, 0.67 );
+  background: rgba( 224, 224, 224, 0.75 );
   border-top: 0;
   border-bottom: 0;
   border-left: 1px solid white;
@@ -90,7 +90,7 @@ select, select:focus {
   display: none;
 }
 .content-header {
-  color: lightgrey;
+  color: #e0e0e0;
   text-shadow: 1px 1px 1px black;
 }
 .content-header span:hover, .content-header span.current:hover {
