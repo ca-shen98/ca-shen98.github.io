@@ -70,19 +70,19 @@ select, select:focus {
   display: table-cell;
   vertical-align: middle;
 }
-.container-wrapper .container {
+.container-wrapper .content-wrapper .container {
   width: calc(100% - 24px);
   margin: 0 12px;
   padding: 0;
   max-width: none;
 }
 @media (min-width: 550px) {
-  .container-wrapper .container {
+  .container-wrapper .content-wrapper .container {
     width: calc(100% - 48px);
     margin: 0 24px;
   }
 }
-.container-wrapper .row {
+.container-wrapper .content-wrapper .row {
   margin: 0;
 }
 .content-wrapper {
@@ -214,7 +214,6 @@ select, select:focus {
 .externallink {
   border-left: 1px solid gainsboro;
   border-right: 1px solid gainsboro;
-  border-radius: 3px;
   box-sizing: border-box;
   text-align: center;
 }
