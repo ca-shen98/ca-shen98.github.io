@@ -20,23 +20,26 @@ var CONTENT_MAP = {
         "<h6>Developed and deployed Java, Python, and C# applications to leverage Apache Spark for the (Radio) Spectrum Environment Analysis testbed system, which was built within a Microsoft Azure cloud infrastructure.</h6>" +
         "<p>- Implemented data analysis algorithms for automated daily batch processing of radio spectrum sensor data uploaded to Hadoop blob storage using Apache Spark, Azure Data Factory, and SQL Server, improving scalability and automation, and increasing performance (reduced execution time from about 3 hours to 2-5 minutes).</p>" +
         "<p>- Designed and implemented a prototype verison of a real time sensor manager hub service, using Spark Streaming in Java to listen to and handle Azure Event Hub sensor status events as an alternative to the Azure Stream Analytics service</p>" +
-        "<p>- Designed and built a prototype user-driven map/chart-based data analysis and visualization tool for dynamically aggregating and filtering geospatial and temporal data, producing on-demand reports providing information about location and timestamped WiFi sniffer data. Leveraged Apache Spark in python, Apache Druid as a data store, a python ReST service, and a Javascript user interface leveraging Leaflet and Chart.js libraries.</p>",
+        "<p>- Designed and built a prototype user-driven map/chart-based data analysis and visualization tool for dynamically aggregating and filtering geospatial and temporal data, producing on-demand reports providing information about WiFi sniffer data. Leveraged Apache Spark in python, a python ReST service, and a Javascript user interface.</p>",
         'Tigercat': "<h6><b>Systems Software Developer | Telematics</b> - Jan to Apr 2016</h6>" +
         "<h6>Designed and built features of a C# application for monitoring and visualizing data from embedded telematics devices, including a tool and service to decrypt, import, visualize, and export data from detailed device diagnostic log files.</h6>" +
         "<p>- Designed and developed feature to process, analyze, and visualize detailed SQLite diagnostics log data from telematics device and export sections of the data to accessible MySQL databases.</p>" +
-        "<p>- Built a ReST cryptography service for decrypting and encrypting packaged telematics diagnostics files, including SQLite log data by using unique, expiring, Active Directory authenticated sessions, handling upload of remote files, and allowing for decryption/encryption using RSA and AES encryption schemes and remotely stored private keys.</p>" +
+        "<p>- Built a ReST cryptography service for decrypting and encrypting packaged telematics diagnostics files, including SQLite log data.</p>" +
         "<p>- Implemented user preferences and alert notifications feature and integrated Active Directory authentication within internal diagnostics application.</p>"
     },
     'projects': {
-        'Dynamic Geospatial Data Analysis Visualization': "<p></p>",
-        'Spark Streaming Twitter Trends Sentiment Analysis': "<p></p>",
-        'Grocery List Messenger Chat Bot': "<p></p>",
-        'Pebble Cyclist Gesture Detection App': "<p></p>",
-        'Dead Reckoning Indoor Navigation Android App': "<p></p>",
-        'Smart Bed Monitoring System': "<p></p>",
-        'Cryptography Server': "<p></p>",
-        'Fall Detection Android App': "<p></p>",
-        'RFID Based Object Locater': "<p></p>"
+        'Dynamic Geospatial Data Analysis Visualization': "<p>Leveraged Apache Spark (PySpark), Apache Druid, and a Geohash algorithm, and developed a user interface in Javascript leveraging Leaflet and Chart.js libraries to develop a generic user-driven data visualization tool for dynamically aggregating, filtering, and analyzing location and time stamped data.</p>",
+        'Spark Streaming Twitter Trends Sentiment Analysis': "<p>Currently developing a Java application, leveraging Apache Spark's Twitter Spark Streaming API, to do basic data analysis on Twitter data for a user-inputted search phrase.</p>",
+        'Grocery List Messenger Chat Bot': "<p>Currently building a Facebook Messenger grocery list chat bot which parses message based commands and respond by updating SQLite database tables and display them as lists.</p>",
+        'Pebble Cyclist Gesture Detection App': "<p>Designed and developed a Pebble watch app in C to detect, recognize, and broadcast arm/hand signals/gestures from cyclists for the purpose of demoing a system to allow safer integration of cyclists with potential vehicle to vehicle communication systems of the future.</p>",
+        'Dead Reckoning Indoor Navigation Android App': "<p>Developed an Android application for tracking a user's position within premapped indoor rooms, and for providing directions to navigate users around walls to a destination within these rooms. " +
+        "Designed and implemented a state machine based step detection algorithm using data from various smartphone sensors to track the user's movements, as well as an \"avoid-walls\" heuristic based route finding algorithm to provide directions.</p>",
+        'Smart Bed Monitoring System': "<p>Designed and built a system for monitoring bed related activities for the purpose of health care (e.g. sleep quality, Alzheimer's patients wandering from beds, seniors falling from beds) and using only non-invasive piezoelectric force sensors placed under the bed. " +
+        "Designed and built a circuit to output the force sensor voltage readings to a ZigBee node, and developed a Java program which used a ZigBee sensor manager library to continuously poll the ZigBee node for real time measurements from the force sensors, then processed the raw data to useful force measurements, and stored historical data in a MySQL database. " +
+        "Implemented a supervised machine learning generated decision tree algorithm for recognizing various bed related activities based on the processed force sensor data.</p>",
+        'Cryptography Server': "<p>Built a ReST cryptography server in C# to handle upload, decryption, and encryption of files using various cryptography schemes (RSA, AES) with remotely stored private keys and uniquely generated, expiring session IDs.</p>",
+        'Fall Detection Android App': "<p>Developed an Android application leveraging the Twilio API to detect falls and alert a specified contact, implementing a state machine based fall detection algorithm based on data from various smartphone sensors.</p>",
+        'RFID Based Object Locater': "<p>Implemented a Java program that received data from an passive RFID handheld reader and used a MySQL database of known RFID tags to identify and find previously tagged items.</p>"
     },
     'shenanigans': "<p></p>"
     /* <p>This page is just a section for me to talk about some non-technical interests outside of work/school.</p>
