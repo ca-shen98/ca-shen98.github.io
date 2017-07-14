@@ -70,7 +70,7 @@ function init() {
         if( windowWidth < 550 ) {
             if( _CurrentPage !== 'landing' ) {
                 $( 'div.section.navmenu' ).css( { 'top': '39px' } );
-                pageWrapper.css( { 'margin-top': '231px', 'margin-bottom': '44px' } );
+                pageWrapper.css( { 'margin-top': '189px', 'margin-bottom': '44px', 'height': 'calc(100% - 233px)' } );
             }
         } else {
             if( _CurrentPage !== 'landing' ) {
@@ -160,7 +160,7 @@ function switchPage( oParams ) {
         if( newPage === 'landing' ) {
             containerWrapper.css( { 'background': 'rgba(0, 0, 0, 0)', 'border-width': '0px' } );
             if( windowWidth < 550 ) {
-                pageWrapper.css( { 'margin-top': '12px', 'margin-bottom': '224px' } );
+                pageWrapper.css( { 'margin-top': '12px', 'margin-bottom': '182px' } );
             } else {
                 pageWrapper.css( { 'margin-top': '12px', 'margin-bottom': '96px' } );
             }
@@ -169,7 +169,7 @@ function switchPage( oParams ) {
             if( _CurrentPage === 'landing' ) {
                 containerWrapper.css( { 'background': 'rgba(222, 222, 222, 0.67)', 'border-width': '1px' } );
                 if( windowWidth < 550 ) {
-                    pageWrapper.css( { 'margin-top': '231px', 'margin-bottom': '44px' } );
+                    pageWrapper.css( { 'margin-top': '189px', 'margin-bottom': '44px', 'height': 'calc(100% - 233px)' } );
                 } else {
                     pageWrapper.css( { 'margin-top': '64px', 'margin-bottom': '44px' } );
                 }

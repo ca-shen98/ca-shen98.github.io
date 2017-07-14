@@ -41,8 +41,8 @@ select, select:focus {
 .page-wrapper {
   box-sizing: content-box;
   display: table;
-  height: calc(100% - 236px);
-  margin: 12px auto 224px;
+  height: calc(100% - 194px);
+  margin: 12px auto 182px;
   position: relative;
   width: calc(100% - 56px);
 }
@@ -163,7 +163,7 @@ select, select:focus {
 .navmenu {
   bottom: 32px;
   box-sizing: border-box;
-  height: 192px;
+  height: 150px;
   left: 0;
   padding: 12px 0;
   position: absolute;
