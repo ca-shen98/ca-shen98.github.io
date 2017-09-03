@@ -9,37 +9,32 @@ var CONTENT_MAP = {
         /* skills */
     },
     'experience': {
-        'SAP': "<h6><b>Software Developer | Big Data Tooling</b> - May to Aug 2017</h6>" +
-        "<h6>Designed and developed features, and fixed bugs for the HANA Database Explorer web app using Javascript within a Node.js environment, and using a MVC plugin architecture, leveraging SAP UI5 and SAP Web App Toolkit (WATT) frameworks.</h6>" +
-        "<p>- Implemented a SQL debug editor component, interfacing with existing debugging functionality.</p>" +
-        "<p>- Designed and developed revamped functionaltiy for the tabular data preview filtering features, taking into account big data considerations.</p>" +
-        "<p>- Improved catalog browser control for viewing and selecting database connections and schema objects.</p>",
+        'SAP': "<h6><b>Software Developer | Big Data Tooling Team</b> - May to Aug 2017</h6>" +
+        "<h6>Full stack JavaScript development for the SAP HANA Database Explorer Node.js web app, leveraging SAP UI5 and WATT frameworks, including development related to displaying, filtering, and simple dynamic analysis of datasets.</h6>" +
+        "<p>- Built a SQL debugging interface for procedures and functions, providing previously unavailable functionality, which increased usage and adoption of the tool.</p>",
         'UWaterloo': "<h6><b>Undergraduate Research Assistant | Department of ECE | Dr. V. Gaudent</b> - Jan to Apr 2017</h6>" +
-        "<h6>Improved scalability and performance of LDPC (low density parity check) and stochastic decoding and error checking algorithm simulation software in C by using OpenMP to increase parallelism.</h6>",
-        'CRC': "<h6><b>Juniour Engineering | Network Applications</b> - Sep to Dec 2016</h6>" +
-        "<h6>Developed and deployed Java, Python, and C# applications to leverage Apache Spark for the (Radio) Spectrum Environment Analysis testbed system, which was built within a Microsoft Azure cloud infrastructure.</h6>" +
-        "<p>- Implemented data analysis algorithms for automated daily batch processing of radio spectrum sensor data uploaded to Hadoop blob storage using Apache Spark, Azure Data Factory, and SQL Server, improving scalability and automation, and increasing performance (reduced execution time from about 3 hours to 2-5 minutes).</p>" +
-        "<p>- Designed and implemented a prototype verison of a real time sensor manager hub service, using Spark Streaming in Java to listen to and handle Azure Event Hub sensor status events as an alternative to the Azure Stream Analytics service</p>" +
-        "<p>- Designed and built a prototype user-driven map/chart-based data analysis and visualization tool for dynamically aggregating and filtering geospatial and temporal data, producing on-demand reports providing information about WiFi sniffer data. Leveraged Apache Spark in python, a python ReST service, and a Javascript user interface.</p>",
-        'Tigercat': "<h6><b>Systems Software Developer | Telematics</b> - Jan to Apr 2016</h6>" +
-        "<h6>Designed and built features of a C# application for monitoring and visualizing data from embedded telematics devices, including a tool and service to decrypt, import, visualize, and export data from detailed device diagnostic log files.</h6>" +
-        "<p>- Designed and developed feature to process, analyze, and visualize detailed SQLite diagnostics log data from telematics device and export sections of the data to accessible MySQL databases.</p>" +
-        "<p>- Built a ReST cryptography service for decrypting and encrypting packaged telematics diagnostics files, including SQLite log data.</p>" +
-        "<p>- Implemented user preferences and alert notifications feature and integrated Active Directory authentication within internal diagnostics application.</p>"
+        "<p>- Used the OpenMP API in C to increase scalability/parallelism of custom LDPC decoder algorithm simulation/analysis software, improving performance 4-fold.</p>",
+        'CRC': "<h6><b>Juniour Engineering | Network Applications Group</b> - Sep to Dec 2016</h6>" +
+        "<h6>Development in Java, Python, and C# of applications, systems, and data analysis scripts that leveraged Microsoft Azure, SQL Server, and Apache Spark for a radio spectrum environment analysis testbed system.</h6>" +
+        "<p>- Designed and implemented a new automated batch processing data analysis flow for monitoring WiFi and LTE usage, improving scalability and reducing execution time from about 5 hours to 15 minutes.</p>",
+        'Tigercat Industries': "<h6><b>Systems Software Developer | Telematics Team</b> - Jan to Apr 2016</h6>" +
+        "<h6>C# development of applications for telematics diagnostics, monitoring, and testing purposes, including the development of a new internal desktop tool.</h6>" +
+        "<p>- Designed and developed a tool and service system for importing, decrypting, and visualizing detailed SQLite log data from telematics devices, providing a simplified diagnostics work flow used by about 25% of employees.</p>"
     },
     'projects': {
-        'Dynamic Geospatial Data Analysis Visualization': "<p>Leveraged Apache Spark (PySpark), Apache Druid, and a Geohash algorithm, and developed a user interface in Javascript leveraging Leaflet and Chart.js libraries to develop a generic user-driven data visualization tool for dynamically aggregating, filtering, and analyzing location and time stamped data.</p>",
-        'Spark Streaming Twitter Trends Sentiment Analysis': "<p>Currently developing a Java application, leveraging Apache Spark's Twitter Spark Streaming API, to do basic data analysis on Twitter data for a user-inputted search phrase.</p>",
-        'Grocery List Messenger Chat Bot': "<p>Currently building a Facebook Messenger grocery list chat bot which parses message based commands and respond by updating SQLite database tables and display them as lists.</p>",
-        'Pebble Cyclist Gesture Detection App': "<p>Designed and developed a Pebble watch app in C to detect, recognize, and broadcast arm/hand signals/gestures from cyclists for the purpose of demoing a system to allow safer integration of cyclists with potential vehicle to vehicle communication systems of the future.</p>",
-        'Dead Reckoning Indoor Navigation Android App': "<p>Developed an Android application for tracking a user's position within premapped indoor rooms, and for providing directions to navigate users around walls to a destination within these rooms. " +
-        "Designed and implemented a state machine based step detection algorithm using data from various smartphone sensors to track the user's movements, as well as an \"avoid-walls\" heuristic based route finding algorithm to provide directions.</p>",
-        'Smart Bed Monitoring System': "<p>Designed and built a system for monitoring bed related activities for the purpose of health care (e.g. sleep quality, Alzheimer's patients wandering from beds, seniors falling from beds) and using only non-invasive piezoelectric force sensors placed under the bed. " +
-        "Designed and built a circuit to output the force sensor voltage readings to a ZigBee node, and developed a Java program which used a ZigBee sensor manager library to continuously poll the ZigBee node for real time measurements from the force sensors, then processed the raw data to useful force measurements, and stored historical data in a MySQL database. " +
-        "Implemented a supervised machine learning generated decision tree algorithm for recognizing various bed related activities based on the processed force sensor data.</p>",
-        'Cryptography Server': "<p>Built a ReST cryptography server in C# to handle upload, decryption, and encryption of files using various cryptography schemes (RSA, AES) with remotely stored private keys and uniquely generated, expiring session IDs.</p>",
-        'Fall Detection Android App': "<p>Developed an Android application leveraging the Twilio API to detect falls and alert a specified contact, implementing a state machine based fall detection algorithm based on data from various smartphone sensors.</p>",
-        'RFID Based Object Locater': "<p>Implemented a Java program that received data from an passive RFID handheld reader and used a MySQL database of known RFID tags to identify and find previously tagged items.</p>"
+        'NHL Data Viz': "<p>In Progress</p>",
+        'Tweet-Stream-Alyzer': "<p>A (Java) Spark Streaming script that performs basic data analysis on tweets related to a search term.</p>",
+        'Spatial-Temporal Data Viz': "<p>A demo/prototype data visualization tool for on-demand, user-driven analysis and aggregation of spatial-temporal data, dynamically filtering and aggregating data based on a map view’s zoom level and bounds, as well as a date-time slider control.</p>" +
+        "<p>Consisted of a JavaScript user interface (using Leaflet and Chart.js libraries) interacting with an Apache Druid data layer, and leveraging a Geohash geospatial indexing algorithm.</p>",
+        'BikeSafe for V2V': "<p>A Pebble watch app (written in C) that detected arm gestures from cyclists based on accelerometer data and transmitted signals to (simulated) nearby vehicle to vehicle communication systems, for the purpose of improving safety for cyclists in a future involving increased self-driving cars.</p>" +
+        "<p>Presented at Hack the North 2016</p>",
+        'Dead Reckoning Nav App': "<p>descriptionAn Android app that for navigating a user to a destination within pre-mapped indoor rooms that provides directions using a heuristic-based route finding algorithm, and tracks a user’s position using step counting and orientation detection algorithms.</p>",
+        'CryptoServer': "<p>A ReSTful C# server that allows clients to upload and decrypt/encrypt files using locally stored keys.</p>",
+        'SleepForce': "<p>A smart bed monitoring system for monitoring sleep and bed-related activities, composed of a Java application interfacing with force sensors via a ZigBee node.</p>" +
+        "<p>Used a decision tree algorithm generated from a supervised machine learning tool (Weka) for recognizing the activities.</p>" +
+        "<p>Participated in CWSF 2015 and received a Bronze Medal Excellence Award.</p>",
+        'Fallen': "<p>Developed an Android application leveraging the Twilio API to detect falls and alert a specified contact, implementing a state machine based fall detection algorithm based on data from various smartphone sensors.</p>",
+        'RFInDer': "<p>Implemented a Java program that received data from an passive RFID handheld reader and used a MySQL database of known RFID tags to identify and find previously tagged items.</p>"
     },
     'shenanigans': "<p></p>"
     /* <p>This page is just a section for me to talk about some non-technical interests outside of work/school.</p>
