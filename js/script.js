@@ -17,7 +17,7 @@ var CONTENT_MAP = {
         'CRC': "<h6><b>Juniour Engineering | Network Applications Group</b> - Sep to Dec 2016</h6>" +
         "<h6>Development in Java, Python, and C# of applications, systems, and data analysis scripts that leveraged Microsoft Azure, SQL Server, and Apache Spark for a radio spectrum environment analysis testbed system.</h6>" +
         "<p>- Designed and implemented a new automated batch processing data analysis flow for monitoring WiFi and LTE usage, improving scalability and reducing execution time from about 5 hours to 15 minutes.</p>",
-        'Tigercat Industries': "<h6><b>Systems Software Developer | Telematics Team</b> - Jan to Apr 2016</h6>" +
+        'Tigercat': "<h6><b>Systems Software Developer | Telematics Team</b> - Jan to Apr 2016</h6>" +
         "<h6>C# development of applications for telematics diagnostics, monitoring, and testing purposes, including the development of a new internal desktop tool.</h6>" +
         "<p>- Designed and developed a tool and service system for importing, decrypting, and visualizing detailed SQLite log data from telematics devices, providing a simplified diagnostics work flow used by about 25% of employees.</p>"
     },
