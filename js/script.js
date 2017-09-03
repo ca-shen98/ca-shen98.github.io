@@ -23,18 +23,18 @@ var CONTENT_MAP = {
     },
     'projects': {
         'NHL Data Viz': "<p>In Progress</p>",
-        'Tweet-Stream-Alyzer': "<p>A (Java) Spark Streaming script that performs basic data analysis on tweets related to a search term.</p>",
+        'Twitter Trends Analyzer': "<p>A (Java) Spark Streaming script that performs basic data analysis on tweets related to a search term.</p>",
         'Spatial-Temporal Data Viz': "<p>A demo/prototype data visualization tool for on-demand, user-driven analysis and aggregation of spatial-temporal data, dynamically filtering and aggregating data based on a map view’s zoom level and bounds, as well as a date-time slider control.</p>" +
         "<p>Consisted of a JavaScript user interface (using Leaflet and Chart.js libraries) interacting with an Apache Druid data layer, and leveraging a Geohash geospatial indexing algorithm.</p>",
         'BikeSafe for V2V': "<p>A Pebble watch app (written in C) that detected arm gestures from cyclists based on accelerometer data and transmitted signals to (simulated) nearby vehicle to vehicle communication systems, for the purpose of improving safety for cyclists in a future involving increased self-driving cars.</p>" +
         "<p>Presented at Hack the North 2016</p>",
-        'Dead Reckoning Nav App': "<p>descriptionAn Android app that for navigating a user to a destination within pre-mapped indoor rooms that provides directions using a heuristic-based route finding algorithm, and tracks a user’s position using step counting and orientation detection algorithms.</p>",
+        'Dead Reckoning Indoor Navigation App': "<p>descriptionAn Android app that for navigating a user to a destination within pre-mapped indoor rooms that provides directions using a heuristic-based route finding algorithm, and tracks a user’s position using step counting and orientation detection algorithms.</p>",
         'CryptoServer': "<p>A ReSTful C# server that allows clients to upload and decrypt/encrypt files using locally stored keys.</p>",
         'SleepForce': "<p>A smart bed monitoring system for monitoring sleep and bed-related activities, composed of a Java application interfacing with force sensors via a ZigBee node.</p>" +
         "<p>Used a decision tree algorithm generated from a supervised machine learning tool (Weka) for recognizing the activities.</p>" +
         "<p>Participated in CWSF 2015 and received a Bronze Medal Excellence Award.</p>",
-        'Fallen': "<p>Developed an Android application leveraging the Twilio API to detect falls and alert a specified contact, implementing a state machine based fall detection algorithm based on data from various smartphone sensors.</p>",
-        'RFInDer': "<p>Implemented a Java program that received data from an passive RFID handheld reader and used a MySQL database of known RFID tags to identify and find previously tagged items.</p>"
+        'Fallen': "<p>An Android app for detecting falls using accelerometer data, and alerting pre-specified contacts using the Twilio API.</p>",
+        'RFInDer': "<p>A Java program interfacing with a passive RFID handheld reader to find objects with RFID tags (tag IDs were mapped to objects in a MySQL database).</p>"
     },
     'shenanigans': "<p></p>"
     /* <p>This page is just a section for me to talk about some non-technical interests outside of work/school.</p>
