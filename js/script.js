@@ -22,16 +22,16 @@ var CONTENT_MAP = {
         "<p>- Designed and developed a tool and service system for importing, decrypting, and visualizing detailed SQLite log data from telematics devices, providing a simplified diagnostics work flow used by about 25% of employees.</p>"
     },
     'projects': {
-        'NHL Data Viz': "<p>In Progress</p>",
         'Twitter Trends Analyzer': "<p>A (Java) Spark Streaming script that performs basic data analysis on tweets related to a search term.</p>",
-        'Spatial-Temporal Data Viz': "<p>A demo/prototype data visualization tool for on-demand, user-driven analysis and aggregation of spatial-temporal data, dynamically filtering and aggregating data based on a map view’s zoom level and bounds, as well as a date-time slider control.</p>" +
-        "<p>Consisted of a JavaScript user interface (using Leaflet and Chart.js libraries) interacting with an Apache Druid data layer, and leveraging a Geohash geospatial indexing algorithm.</p>",
-        'BikeSafe for V2V': "<p>A Pebble watch app (written in C) that detected arm gestures from cyclists based on accelerometer data and transmitted signals to (simulated) nearby vehicle to vehicle communication systems, for the purpose of improving safety for cyclists in a future involving increased self-driving cars.</p>" +
+        'NHL Data Viz': "<p>In Progress</p>",
+        'Spatial-Temporal Data Viz': "<p>A prototype data analysis tool for dynamically filtering, aggregating, and visualizing spatial data based on a map’s zoom and bounds.</p>" +
+        "<p>Consisted of a JavaScript user interface (leveraging Leaflet and Chart.js libraries) interfacing with an Apache Druid data store, and leveraging a Geohash algorithm for spatial indexing.</p>",
+        'BikeSafe for V2V': "<p>A Pebble watch app (written in C) that detected arm gestures from cyclists based on accelerometer data.</p>" +
         "<p>Presented at Hack the North 2016</p>",
-        'Dead Reckoning Indoor Navigation App': "<p>descriptionAn Android app that for navigating a user to a destination within pre-mapped indoor rooms that provides directions using a heuristic-based route finding algorithm, and tracks a user’s position using step counting and orientation detection algorithms.</p>",
+        'Dead Reckoning Indoor Navigation App': "<p>An Android app that navigates a user within pre-mapped indoor rooms using a heuristic route-finding algorithm, and tracks a user’s position using an accelerometer-based step displacement algorithm.</p>",
         'CryptoServer': "<p>A ReSTful C# server that allows clients to upload and decrypt/encrypt files using locally stored keys.</p>",
-        'SleepForce': "<p>A smart bed monitoring system for monitoring sleep and bed-related activities, composed of a Java application interfacing with force sensors via a ZigBee node.</p>" +
-        "<p>Used a decision tree algorithm generated from a supervised machine learning tool (Weka) for recognizing the activities.</p>" +
+        'SleepForce': "<p>A  smart bed monitoring system that recognizes bed-related activities based on data from force sensors using a supervised machine learning generated decision tree.</p>" +
+        "<p>A Java program interfacing with force sensors via a ZigBee node.</p>" +
         "<p>Participated in CWSF 2015 and received a Bronze Medal Excellence Award.</p>",
         'Fallen': "<p>An Android app for detecting falls using accelerometer data, and alerting pre-specified contacts using the Twilio API.</p>",
         'RFInDer': "<p>A Java program interfacing with a passive RFID handheld reader to find objects with RFID tags (tag IDs were mapped to objects in a MySQL database).</p>"
