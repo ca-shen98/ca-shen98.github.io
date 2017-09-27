@@ -10,16 +10,16 @@ var CONTENT_MAP = {
     },
     'experience': {
         'SAP': "<h6><b>Software Developer | Big Data Tooling Team</b> - May to Aug 2017</h6>" +
-        "<h6>Full stack JavaScript development for the SAP HANA Database Explorer Node.js web app, leveraging SAP UI5 and WATT frameworks, including development related to displaying, filtering, and simple dynamic analysis of datasets.</h6>" +
-        "<p>- Built a SQL debugging interface for procedures and functions, providing previously unavailable functionality, which increased usage and adoption of the tool.</p>",
+        "<h6>Full stack JavaScript/Node.js development on the SAP HANA Database Explorer web app, including designing 5 major user-requested features related to browsing, viewing, and debugging database objects and data.</h6>" +
+        "<p>- Implemented a new data preview interface for dynamically visualizing common data analysis operations, increasing retainment of users by enabling the generation of graphical reports within the in-app data preview workflow.</p>",
         'UWaterloo': "<h6><b>Undergraduate Research Assistant | Department of ECE | Dr. V. Gaudent</b> - Jan to Apr 2017</h6>" +
         "<p>- Used the OpenMP API in C to increase scalability/parallelism of custom LDPC decoder algorithm simulation/analysis software, improving performance 4-fold.</p>",
         'CRC': "<h6><b>Juniour Engineering | Network Applications Group</b> - Sep to Dec 2016</h6>" +
-        "<h6>Development in Java, Python, and C# of applications, systems, and data analysis scripts that leveraged Microsoft Azure, SQL Server, and Apache Spark for a radio spectrum environment analysis testbed system.</h6>" +
-        "<p>- Designed and implemented a new automated batch processing data analysis flow for monitoring WiFi and LTE usage, improving scalability and reducing execution time from about 5 hours to 15 minutes.</p>",
+        "<h6>Development in Java, Python, and C# of applications and data analysis systems leveraging Apache Spark and Microsoft Azure for a radio spectrum usage analysis system built on a testbed system of radio spectrum sniffer sensors.</h6>" +
+        "<p>- Built an automated data analysis workflow for monitoring WiFi/LTE usage, improving scalability, and reducing execution time from 5 hours to 15 minutes.</p>",
         'Tigercat': "<h6><b>Systems Software Developer | Telematics Team</b> - Jan to Apr 2016</h6>" +
-        "<h6>C# development of applications for telematics diagnostics, monitoring, and testing purposes, including the development of a new internal desktop tool.</h6>" +
-        "<p>- Designed and developed a tool and service system for importing, decrypting, and visualizing detailed SQLite log data from telematics devices, providing a simplified diagnostics work flow used by about 25% of employees.</p>"
+        "<h6>Development of C# applications for monitoring and visualizing data from telematics devices, including a new streamlined diagnostics workflow used by most technicians for importing and viewing detailed diagnostics log data.</h6>" +
+        "<p>- Built a RESTful cryptography server, simplifying the process for importing SQLite telematics data by creating a less manual decryption workflow.</p>"
     },
     'projects': {
         'Twitter Trends Analyzer': "<p>A (Java) Spark Streaming script that performs basic data analysis on tweets related to a search term.</p>",
