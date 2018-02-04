@@ -1,19 +1,29 @@
+a.menu-item {
+    color: black;
+    text-decoration: none;
+}
+a.menu-item:hover {
+    text-decoration: underline;
+}
 div.body-wrapper {
     display: table;
-    height: calc(100% - 50px);
+    height: calc(100% - 75px);
     width: 100%;
 }
 div.content-wrapper {
     display: table-cell;
     vertical-align: middle;
 }
+div.footer-wrapper {
+    height: 75px;
+}
+div.links-row {
+    margin-bottom: 5px;
+}
 div.nav-row {
     border-top: 1px solid black;
     box-sizing: border-box;
     padding-top: 10px;
-}
-div.nav-menu {
-    height: 50px;
 }
 div.page-wrapper {
     height: 100%;
@@ -21,12 +31,13 @@ div.page-wrapper {
     width: 100%;
 }
 div.subtitle-row {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
-/*div.title-column {
+div.title-row {
     border-bottom: 2px solid black;
     box-sizing: border-box;
-}*/
+    padding-bottom: 5px;
+}
 h1.name-title {
     font-size: 4.0rem;
     font-variant: small-caps;
@@ -39,7 +50,7 @@ h3.nav-item {
     margin-bottom: 0;
     text-align: center;
 }
-h6.not-title {
+h6.menu-item {
     margin-bottom: 0;
     text-align: center;
 }
