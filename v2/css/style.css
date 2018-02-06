@@ -7,8 +7,13 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 75px);
+    height: calc(100% - 170px);
     width: 100%;
+}
+@media (min-width: 550px) {
+    div.body-wrapper {
+        height: calc(100% - 75px);
+    }
 }
 div.content-wrapper {
     display: table-cell;
@@ -18,12 +23,14 @@ div.footer-wrapper {
     height: 75px;
 }
 div.links-row {
-    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 div.nav-row {
     border-top: 1px solid darkgreen;
     box-sizing: border-box;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 div.page-wrapper {
     height: 100%;
@@ -31,20 +38,14 @@ div.page-wrapper {
     width: 100%;
 }
 div.subtitle-row {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 div.title-row {
     border-bottom: 2px solid darkgreen;
     box-sizing: border-box;
+    padding-top: 5px;
     padding-bottom: 5px;
-}
-img.display-pic {
-    border-radius: 100%;
-    display: block;
-    height: 200px;
-    margin: 0 auto 10px;
-    width: 200px;
 }
 h1.name-title {
     font-size: 4.0rem;
@@ -53,10 +54,15 @@ h1.name-title {
     text-align: center;
 }
 h3.nav-item {
+    color: darkgreen;
     font-size: 2.0rem;
     font-variant: small-caps;
     margin-bottom: 0;
     text-align: center;
+}
+h3.nav-item:hover {
+    cursor: pointer;
+    font-weight: 500;
 }
 h6.menu-item {
     margin-bottom: 0;
