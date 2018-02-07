@@ -7,12 +7,12 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 170px);
+    height: calc(100% - 70px);
     width: 100%;
 }
 @media (min-width: 550px) {
     div.body-wrapper {
-        height: calc(100% - 75px);
+        height: calc(100% - 40px);
     }
 }
 div.content-wrapper {
@@ -20,7 +20,8 @@ div.content-wrapper {
     vertical-align: middle;
 }
 div.footer-wrapper {
-    height: 75px;
+    display: table-row;
+    height: 25px;
 }
 div.links-row {
     padding-top: 5px;
@@ -28,9 +29,11 @@ div.links-row {
 }
 div.nav-row {
     border-top: 1px solid darkgreen;
-    box-sizing: border-box;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+div.nav-wrapper {
+    height: 40px;
 }
 div.page-wrapper {
     height: 100%;
@@ -43,7 +46,6 @@ div.subtitle-row {
 }
 div.title-row {
     border-bottom: 2px solid darkgreen;
-    box-sizing: border-box;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -70,7 +72,6 @@ h6.menu-item {
 /*img.display-pic {
     border: 2px solid black;
     border-radius: 100%;
-    box-sizing: border-box;
     display: block;
     height: 100px;
     margin-left: auto;
