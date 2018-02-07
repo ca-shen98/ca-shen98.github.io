@@ -21,7 +21,11 @@ div.content-wrapper {
 }
 div.footer-wrapper {
     display: table-row;
-    height: 25px;
+    height: 0px;
+}
+div.header-wrapper {
+    display: table-row;
+    height: 0px;
 }
 div.links-row {
     padding-top: 5px;
@@ -55,6 +59,9 @@ h1.name-title {
     margin-bottom: 0;
     text-align: center;
 }
+h3.current-item {
+    font-weight: 500;
+}
 h3.nav-item {
     color: darkgreen;
     font-size: 2.0rem;
@@ -69,15 +76,26 @@ h6.menu-item {
     margin-bottom: 0;
     text-align: center;
 }
-/*img.display-pic {
-    border: 2px solid black;
+img.landing-button {
+    border: 1px solid darkgreen;
     border-radius: 100%;
-    display: block;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-}*/
+    bottom: 0;
+    box-sizing: border-box;
+    height: 50px;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+}
+img.landing-button:hover, img.current-item {
+    border-width: 4px;
+    height: 54px;
+    margin-bottom: 3px;
+    margin-left: -27px;
+    width: 54px;
+}
 span.dark-green {
     color: darkgreen;
 }
