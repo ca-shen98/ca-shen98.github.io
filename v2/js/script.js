@@ -17,14 +17,14 @@ function init() {
 
 function switchAnchor(newAnchor) {
     if(VALID_ANCHORS.indexOf(_currentAnchor) >= 0) {
-        $('#' + _currentAnchor + '_nav-item').removeClass('current-item');
+        $('#' + _currentAnchor + '_nav-item').removeClass('current-item', 200);
     } else if(_currentAnchor.length == 0) {
-        $('#landing_nav-item').removeClass('current-item');
+        $('#landing_nav-item').removeClass('current-item', 100);
     } // else
     if(VALID_ANCHORS.indexOf(newAnchor) >= 0) {
-        $('#' + newAnchor + '_nav-item').addClass('current-item');
+        $('#' + newAnchor + '_nav-item').addClass('current-item', 200);
     } else if(newAnchor.length == 0) {
-        $('#landing_nav-item').addClass('current-item');
+        $('#landing_nav-item').addClass('current-item', 100);
     } // else
     _currentAnchor = newAnchor;
 }
