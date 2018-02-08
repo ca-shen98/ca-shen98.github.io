@@ -37,7 +37,10 @@ div.nav-row {
     padding-bottom: 5px;
 }
 div.nav-wrapper {
+    bottom: 0;
     height: 40px;
+    position: absolute;
+    width: 100%;
 }
 div.page-wrapper {
     height: 100%;
