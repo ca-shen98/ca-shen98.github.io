@@ -88,6 +88,7 @@ img.landing-button {
     left: 50%;
     margin-bottom: 5px;
     margin-left: -25px;
+    margin-top: 5px;
     position: absolute;
     width: 50px;
     z-index: 1;
@@ -97,6 +98,7 @@ img.landing-button:hover, img.current-item {
     height: 54px;
     margin-bottom: 3px;
     margin-left: -27px;
+    margin-top: 3px;
     width: 54px;
 }
 span.dark-green {
