@@ -7,11 +7,11 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 70px);
+    height: calc(100% - 64px);
     position: relative;
     width: 100%;
 }
-@media (min-width: 550px) {
+@media(min-width: 640px) {
     div.body-wrapper {
         height: calc(100% - 45px);
     }
@@ -42,9 +42,14 @@ div.nav-row {
 }
 div.nav-wrapper {
     bottom: 0px;
-    height: 45px;
+    height: 64px;
     position: absolute;
     width: 100%;
+}
+@media(min-width: 640px) {
+    div.nav-wrapper {
+        height: 45px;
+    }
 }
 div.page-wrapper {
     height: 100%;
@@ -86,28 +91,49 @@ h6.menu-item {
 img.landing-button {
     border: 1px solid darkgreen;
     border-radius: 100%;
-    bottom: -45px;
+    bottom: -64px;
     box-sizing: border-box;
-    height: 50px;
-    left: 50%;
+    height: 25px;
+    left: 10px;
     margin-bottom: 5px;
-    margin-left: -25px;
     margin-top: 5px;
     position: absolute;
-    width: 50px;
+    width: 25px;
     z-index: 1;
 }
-img.landing-button:hover, img.current-item {
-    border-width: 3px;
-    height: 54px;
-    margin-bottom: 3px;
-    margin-left: -27px;
-    margin-top: 3px;
-    width: 54px;
+img.landing-button:hover, img.landing-button.current-item {
+    border-width: 2px;
+    height: 27px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    width: 27px;
+}
+img.landing-button.current-item {
+    display: none;
+}
+@media(min-width: 640px) {
+    img.landing-button {
+        bottom: -45px;
+        height: 46px;
+        left: 50%;
+        margin-left: -23px;
+        width: 46px;
+    }
+    img.landing-button:hover, img.landing-button.current-item {
+        border-width: 3px;
+        height: 50px;
+        margin-bottom: 3px;
+        margin-left: -25px;
+        margin-top: 3px;
+        width: 50px;
+    }
+    img.landing-button.current-item {
+        display: block;
+    }
 }
 span.dark-green {
     color: darkgreen;
 }
 span.medium-bold {
-    font-weight: 500;
+    font-weight: 600;
 }
