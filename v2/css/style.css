@@ -3,7 +3,7 @@ a.menu-item {
     text-decoration: none;
 }
 a.menu-item:hover {
-    font-weight: 500;
+    font-weight: 600;
 }
 div.body-wrapper {
     display: table;
@@ -67,7 +67,7 @@ h1.name-title {
     text-align: center;
 }
 h3.current-item {
-    font-weight: 500;
+    font-weight: 600;
 }
 h3.nav-item {
     color: darkgreen;
@@ -77,7 +77,7 @@ h3.nav-item {
     text-align: center;
 }
 h3.nav-item:hover {
-    font-weight: 500;
+    font-weight: 600;
 }
 h6.menu-item {
     margin-bottom: 0px;
