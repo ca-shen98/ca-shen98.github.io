@@ -8,11 +8,12 @@ a.menu-item:hover {
 div.body-wrapper {
     display: table;
     height: calc(100% - 70px);
+    position: relative;
     width: 100%;
 }
 @media (min-width: 550px) {
     div.body-wrapper {
-        height: calc(100% - 40px);
+        height: calc(100% - 45px);
     }
 }
 div.content-wrapper {
@@ -38,7 +39,7 @@ div.nav-row {
 }
 div.nav-wrapper {
     bottom: 0;
-    height: 40px;
+    height: 45px;
     position: absolute;
     width: 100%;
 }
@@ -82,7 +83,7 @@ h6.menu-item {
 img.landing-button {
     border: 1px solid darkgreen;
     border-radius: 100%;
-    bottom: 0;
+    bottom: -45px;
     box-sizing: border-box;
     height: 50px;
     left: 50%;
