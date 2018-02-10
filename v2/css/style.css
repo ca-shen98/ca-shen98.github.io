@@ -7,11 +7,11 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 64px);
+    height: calc(100% - 90px);
     position: relative;
     width: 100%;
 }
-@media(min-width: 640px) {
+@media(min-width: 550px) {
     div.body-wrapper {
         height: calc(100% - 45px);
     }
@@ -42,11 +42,11 @@ div.nav-row {
 }
 div.nav-wrapper {
     bottom: 0px;
-    height: 64px;
+    height: 90px;
     position: absolute;
     width: 100%;
 }
-@media(min-width: 640px) {
+@media(min-width: 550px) {
     div.nav-wrapper {
         height: 45px;
     }
@@ -91,31 +91,29 @@ h6.menu-item {
 img.landing-button {
     border: 1px solid darkgreen;
     border-radius: 100%;
-    bottom: -64px;
+    bottom: -61px;
     box-sizing: border-box;
-    height: 25px;
-    left: 10px;
+    height: 24px;
+    left: 50%;
     margin-bottom: 5px;
+    margin-left: -12px;
     margin-top: 5px;
     position: absolute;
-    width: 25px;
+    width: 24px;
     z-index: 1;
 }
 img.landing-button:hover, img.landing-button.current-item {
     border-width: 2px;
-    height: 27px;
+    height: 26px;
     margin-bottom: 4px;
+    margin-left: -13px;
     margin-top: 4px;
-    width: 27px;
+    width: 26px;
 }
-img.landing-button.current-item {
-    display: none;
-}
-@media(min-width: 640px) {
+@media(min-width: 550px) {
     img.landing-button {
         bottom: -45px;
         height: 46px;
-        left: 50%;
         margin-left: -23px;
         width: 46px;
     }
@@ -126,9 +124,6 @@ img.landing-button.current-item {
         margin-left: -25px;
         margin-top: 3px;
         width: 50px;
-    }
-    img.landing-button.current-item {
-        display: block;
     }
 }
 span.dark-green {
