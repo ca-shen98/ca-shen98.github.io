@@ -14,7 +14,11 @@ function init() {
         }
     };
     window.onresize = function(eventParams) {
-
+        if(isLandingAnchor(_currentAnchor)) {
+            $('#_nav-item').css('top', eventParams.target.innerWidth >= 550 ? 0 : 32);
+        } else {
+            $('#_nav-item').css('bottom', eventParams.target.innerWidth >= 550 ? -45 : -61);
+        }
     };
     var tempAnchor = location.hash;
     if(tempAnchor.length > 0) {
