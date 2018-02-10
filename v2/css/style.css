@@ -3,7 +3,12 @@ a.menu-item {
     text-decoration: none;
 }
 a.menu-item:hover {
-    font-weight: 600;
+    font-weight: 500;
+}
+@media(min-width: 550px) {
+    a.menu-item:hover {
+        font-weight: 600;
+    }
 }
 div.body-wrapper {
     display: table;
@@ -72,7 +77,12 @@ h1.name-title {
     text-align: center;
 }
 h3.current-item {
-    font-weight: 600;
+    font-weight: 500;
+}
+@media(min-width: 550px) {
+    h3.current-item {
+        font-weight: 600;
+    }
 }
 h3.nav-item {
     color: darkgreen;
@@ -82,7 +92,12 @@ h3.nav-item {
     text-align: center;
 }
 h3.nav-item:hover {
-    font-weight: 600;
+    font-weight: 500;
+}
+@media(min-width: 550px) {
+    h3.nav-item:hover {
+        font-weight: 600;
+    }
 }
 h6.menu-item {
     margin-bottom: 0px;
@@ -130,5 +145,10 @@ span.dark-green {
     color: darkgreen;
 }
 span.medium-bold {
-    font-weight: 600;
+    font-weight: 500;
+}
+@media(min-width: 550px) {
+    span.medium-bold {
+        font-weight: 600;
+    }
 }
