@@ -7,8 +7,9 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 90px);
+    height: calc(100% - 95px);
     position: relative;
+    top: 0px;
     width: 100%;
 }
 @media(min-width: 550px) {
@@ -42,7 +43,7 @@ div.nav-row {
 }
 div.nav-wrapper {
     bottom: 0px;
-    height: 90px;
+    height: 95px;
     position: absolute;
     width: 100%;
 }
@@ -87,24 +88,24 @@ h6.menu-item {
 img.landing-button {
     border: 1px solid darkgreen;
     border-radius: 100%;
-    bottom: -61px;
+    bottom: -64px;
     box-sizing: border-box;
-    height: 24px;
+    height: 26px;
     left: 50%;
     margin-bottom: 5px;
-    margin-left: -12px;
+    margin-left: -13px;
     margin-top: 5px;
     position: absolute;
-    width: 24px;
+    width: 26px;
     z-index: 1;
 }
 img.landing-button:hover, img.landing-button.current-item {
     border-width: 2px;
-    height: 26px;
+    height: 28px;
     margin-bottom: 4px;
-    margin-left: -13px;
+    margin-left: -14px;
     margin-top: 4px;
-    width: 26px;
+    width: 28px;
 }
 @media(min-width: 550px) {
     img.landing-button {
