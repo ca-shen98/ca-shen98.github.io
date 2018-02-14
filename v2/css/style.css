@@ -3,12 +3,7 @@ a.menu-item {
     text-decoration: none;
 }
 a.menu-item:hover {
-    font-weight: 500;
-}
-@media(min-width: 550px) {
-    a.menu-item:hover {
-        font-weight: 600;
-    }
+    font-weight: 600;
 }
 div.body-wrapper {
     display: table;
@@ -77,12 +72,7 @@ h1.name-title {
     text-align: center;
 }
 h3.current-item {
-    font-weight: 500;
-}
-@media(min-width: 550px) {
-    h3.current-item {
-        font-weight: 600;
-    }
+    font-weight: 600;
 }
 h3.nav-item {
     font-size: 2.0rem;
@@ -136,10 +126,5 @@ span.dark-green {
     color: darkgreen;
 }
 span.medium-bold {
-    font-weight: 500;
-}
-@media(min-width: 550px) {
-    span.medium-bold {
-        font-weight: 600;
-    }
+    font-weight: 600;
 }
