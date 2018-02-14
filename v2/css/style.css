@@ -85,19 +85,10 @@ h3.current-item {
     }
 }
 h3.nav-item {
-    color: darkgreen;
     font-size: 2.0rem;
     font-variant: small-caps;
     margin-bottom: 0px;
     text-align: center;
-}
-h3.nav-item:hover {
-    font-weight: 500;
-}
-@media(min-width: 550px) {
-    h3.nav-item:hover {
-        font-weight: 600;
-    }
 }
 h6.menu-item {
     margin-bottom: 0px;
