@@ -1,172 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<head>
+  <!-- Metadata -->
   <meta charset="utf-8">
   <title>Carl Shen</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- jQuery
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Font -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Icon -->
+  <link rel="icon" type="image/png" href="resources/icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <script src="js/script.js"></script>
-
 </head>
-<body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="main-wrapper">
-    <div class="landing_page-background animated fadeIn"></div>
-    <div class="aboutme_page-background animated"></div>
-    <div class="experience_page-background animated"></div>
-    <div class="projects_page-background animated"></div>
-    <div class="shenanigans_page-background animated"></div>
-    <div class="page-wrapper">
-      <div class="section container-wrapper animated">
-        <div id="landing_content-wrapper" class="animated zoomIn">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
-                <img class="portrait" src="images/portrait.jpg" />
-                <h1 align="center">Carl Shen</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="three columns externallink">
-                <a href="mailto:c42shen@uwaterloo.ca" target="_blank">Email</a>
-              </div>
-              <div class="three columns externallink">
-                <a href="https://www.linkedin.com/in/shencarl/" target="_blank">LinkedIn</a>
-              </div>
-              <div class="three columns externallink">
-                <a href="files/CarlShen-resume.pdf" target="_blank">Resume</a>
-              </div>
-              <div class="three columns externallink">
-                <a href="https://github.com/cshen98" target="_blank">GitHub</a>
-              </div>
+<body>
+  <div class="page-wrapper">
+    <div class="body-wrapper">
+      <div class="header-wrapper">
+        <a href="#"><img src="resources/icon.png" class="landing-button current-item" id="_nav-item" /></a>
+      </div>
+      <div class="content-wrapper animated" id="_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="offset-by-three six columns title-row">
+              <h1 class="name-title"><span class="dark-green"><span class="medium-bold">C</span>arl</span> <span class="medium-bold">Shen</span></h1>
             </div>
           </div>
-        </div>
-        <div id="aboutme_content-wrapper" class="content-wrapper animated">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
-                <h4 style="border-bottom: 1px solid black;">About Me</h4>
-                <h5 align="center" class="content-header"><span onclick="onPageContentChanged( { oSource: this, page: 'aboutme' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'aboutme' } )" class="current">Aspiring computer engineer</span> | <span onclick="onPageContentChanged( { oSource: this, page: 'aboutme' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'aboutme' } )">High achieving student</span> | <span onclick="onPageContentChanged( { oSource: this, page: 'aboutme' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'aboutme' } )">Skilled software developer</span></h5>
-              </div>
-            </div>
-            <div class="row">
-              <div id="aboutme_content" class="twelve columns">
-              </div>
+          <div class="row subtitle-row">
+            <div class="offset-by-four four columns">
+              <h6 class="menu-item"><a href="resources/resume.pdf" target="_blank" class="menu-item">resume</a></h6>
+              <h6 class="menu-item"><a href="mailto:c42shen@uwaterloo.ca" class="menu-item">email</a></h6>
             </div>
           </div>
-        </div>
-        <div id="experience_content-wrapper" class="content-wrapper animated">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
-                <h4 style="border-bottom: 1px solid black;">Experience</h4>
-                <h5 align="center" class="content-header"><span onclick="onPageContentChanged( { oSource: this, page: 'experience' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'experience' } )" class="current">SAP</span> | <span onclick="onPageContentChanged( { oSource: this, page: 'experience' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'experience' } )">UWaterloo</span> | <span onclick="onPageContentChanged( { oSource: this, page: 'experience' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'experience' } )">CRC</span> | <span onclick="onPageContentChanged( { oSource: this, page: 'experience' } )" onmouseover="onPageContentChanged( { oSource: this, page: 'experience' } )">Tigercat</span></h5>
-              </div>
+          <div class="row links-row">
+            <div class="offset-by-two two columns">
+              <h6 class="menu-item"><a href="https://github.com/cshen98" target="_blank" class="menu-item">github</a></h6>
             </div>
-            <div class="row">
-              <div id="experience_content" class="twelve columns">
-              </div>
+            <div class="two columns">
+              <h6 class="menu-item"><a href="https://www.linkedin.com/in/shencarl/" target="_blank" class="menu-item">linkedin</a></h6>
             </div>
-          </div>
-        </div>
-        <div id="projects_content-wrapper" class="content-wrapper animated">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
-                <h4 style="border-bottom: 1px solid black;">Projects
-                </h4>
-                <h6><select onchange="onPageContentChanged( { oSource: this, page: 'projects' } )"></select></h6>
-              </div>
+            <div class="two columns">
+                <h6 class="menu-item"><a href="https://twitter.com/cshen91" target="_blank" class="menu-item">twitter</a></h6>
             </div>
-            <div class="row">
-              <div id="projects_content" class="twelve columns">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="shenanigans_content-wrapper" class="content-wrapper animated">
-          <div class="container">
-            <div class="row">
-              <div class="twelve columns">
-                <h4 style="border-bottom: 1px solid black; font-weight: normal;"><b>Shen</b>anigans</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div id="shenanigans_content" class="twelve columns">
-              </div>
+            <div class="two columns">
+                <h6 class="menu-item"><a href="https://www.instagram.com/carlshen98/" target="_blank" class="menu-item">instagram</a></h6>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section navmenu animated">
-      <div class="container">
-        <div class="row">
-          <div class="four columns">
-            <button id="aboutme_button" class="navmenu-item" onclick="onNavMenuButtonClick( this )">About Me</button>
+      <div class="content-wrapper animated not-active" id="aboutme_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <p>Hi! I'm a computer engineering student at the University of Waterloo in Canada and am currently a software engineering intern at Yahoo on the Daily Fantasy Sports Backend team.</p>
+            </div>
           </div>
-          <div class="four columns">
-            <button id="experience_button" class="navmenu-item" onclick="onNavMenuButtonClick( this )">Experience</button>
-          </div>
-          <div class="four columns">
-            <button id="projects_button" class="navmenu-item" onclick="onNavMenuButtonClick( this )">Projects</button>
-          </div>
-          <!--div class="three columns">
-            <button id="shenanigans_button" class="navmenu-item" style="font-weight: normal;" onclick="onNavMenuButtonClick( this )"><b>Shen</b>anigans</button>
-          </div-->
         </div>
       </div>
+      <div class="content-wrapper animated not-active" id="projects_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <p>Here are some projects I've been working on and have worked on in the past. Currently, I've been focusing on leveraging the Apache Spark suite for applications in hockey analytics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-wrapper"></div>
     </div>
-    <div class="stickyhome animated">
-      <span class="closebutton" onclick="onCloseButtonClick()">&#8962;</span>
-    </div>
-    <div class="section stickyfooter">
+    <div class="nav-wrapper">
       <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <footer align="center">&copy Carl Shen. All Rights Reserved.</footer>
+        <div class="row nav-row">
+          <div class="offset-by-two three columns">
+              <h3 class="nav-item" id="aboutme_nav-item"><a href="#aboutme" class="menu-item"><span class="dark-green"><span class="medium-bold">A</span>bout me</a></span></h3>
+          </div>
+          <div class="two columns">&nbsp;</div>
+          <div class="three columns">
+              <h3 class="nav-item" id="projects_nav-item"><a href="#projects" class="menu-item"><span class="dark-green"><span class="medium-bold">P</span>rojects</a></span></h3>
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <script>init();</script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
