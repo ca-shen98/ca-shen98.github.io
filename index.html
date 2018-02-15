@@ -31,7 +31,7 @@
   <div class="page-wrapper">
     <div class="body-wrapper">
       <div class="header-wrapper">
-        <a href="#"><img src="resources/icon.png" class="landing-button current-item" id="_nav-item" /></a>
+        <a href="#" onclick="onNavMenuItemClick(this)"><img src="resources/icon.png" class="landing-button animated current-item" id="_nav-item" /></a>
       </div>
       <div class="content-wrapper animated" id="_content-wrapper">
         <div class="container">
@@ -82,15 +82,15 @@
       </div>
       <div class="footer-wrapper"></div>
     </div>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper animated">
       <div class="container">
         <div class="row nav-row">
           <div class="offset-by-two three columns">
-              <h3 class="nav-item" id="aboutme_nav-item"><a href="#aboutme" class="menu-item"><span class="dark-green"><span class="medium-bold">A</span>bout me</a></span></h3>
+              <h3 class="nav-item" id="aboutme_nav-item"><a href="#aboutme" onclick="onNavMenuItemClick(this)" class="menu-item" id="aboutme_nav-menu-item"><span class="dark-green"><span class="medium-bold">A</span>bout me</a></span></h3>
           </div>
           <div class="two columns">&nbsp;</div>
           <div class="three columns">
-              <h3 class="nav-item" id="projects_nav-item"><a href="#projects" class="menu-item"><span class="dark-green"><span class="medium-bold">P</span>rojects</a></span></h3>
+              <h3 class="nav-item" id="projects_nav-item"><a href="#projects" onclick="onNavMenuItemClick(this)" class="menu-item"id="projects_nav-menu-item"><span class="dark-green"><span class="medium-bold">P</span>rojects</a></span></h3>
           </div>
         </div>
       </div>

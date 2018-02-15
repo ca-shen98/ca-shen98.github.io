@@ -94,3 +94,14 @@ function switchAnchor(newAnchor, animate=true) {
 function isLandingAnchor(anchor) {
     return anchor.length == 0;
 }
+
+function onNavMenuItemClick(source) {
+    if (source.id.slice(0, source.id.indexOf('_')) == _currentAnchor) {
+        $('.nav-wrapper').addClass( 'rubberBand' );
+        $('#_nav-item').addClass( 'rubberBand' );
+        setTimeout( function() {
+            $('.nav-wrapper').removeClass( 'rubberBand' );
+            $('#_nav-item').removeClass( 'rubberBand' );
+        }, 500 );
+    }
+}
