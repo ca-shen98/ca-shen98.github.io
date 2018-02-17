@@ -43,14 +43,18 @@ a.menu-item:hover {
 }
 div.body-wrapper {
     display: table;
-    height: calc(100% - 95px);
+    height: calc(100% - 105px);
+    margin-bottom: 5px;
+    margin-top: 5px;
     position: relative;
     top: 0px;
     width: 100%;
 }
 @media(min-width: 550px) {
     div.body-wrapper {
-        height: calc(100% - 45px);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: calc(100% - 65px);
     }
 }
 div.content-wrapper {
@@ -124,7 +128,7 @@ h6.menu-item {
 img.landing-button {
     border: 1px solid darkgreen;
     border-radius: 100%;
-    bottom: -64px;
+    bottom: -68px;
     box-sizing: border-box;
     height: 26px;
     left: 50%;
@@ -145,7 +149,7 @@ img.landing-button:hover, img.landing-button.current-item {
 }
 @media(min-width: 550px) {
     img.landing-button {
-        bottom: -45px;
+        bottom: -55px;
         height: 46px;
         margin-left: -23px;
         width: 46px;
