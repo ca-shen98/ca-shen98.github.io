@@ -31,33 +31,41 @@
   <div class="page-wrapper">
     <div class="body-wrapper">
       <div class="header-wrapper">
-        <a href="#" onclick="onNavMenuItemClick(this)"><img src="resources/icon.png" class="landing-button animated current-item" id="_nav-item" /></a>
+        <a href="#" onclick="onNavMenuItemClick(this)">
+          <img src="resources/icon.png" class="landing-button animated current-item" id="_nav-item" />
+        </a>
       </div>
       <div class="content-wrapper animated" id="_content-wrapper">
         <div class="container">
           <div class="row">
             <div class="offset-by-three six columns title-row">
-              <h1 class="name-title"><span class="dark-green"><span class="medium-bold">C</span>arl</span> <span class="medium-bold">Shen</span></h1>
+              <h1 class="name-title">
+                <span class="dark-green">
+                  <span class="medium-bold">C</span>arl</span>
+                <span class="medium-bold">Shen</span>
+              </h1>
             </div>
           </div>
           <div class="row subtitle-row">
             <div class="offset-by-four four columns">
-              <h6 class="menu-item"><a href="resources/resume.pdf" target="_blank" class="menu-item">resume</a></h6>
-              <h6 class="menu-item"><a href="mailto:c42shen@uwaterloo.ca" class="menu-item">email</a></h6>
+              <h6 class="menu-item">
+                <a href="resources/resume.pdf" target="_blank" class="menu-item">resume</a>
+              </h6>
+              <h6 class="menu-item">
+                <a href="mailto:c42shen@uwaterloo.ca" class="menu-item">email</a>
+              </h6>
             </div>
           </div>
           <div class="row links-row">
-            <div class="offset-by-two two columns">
-              <h6 class="menu-item"><a href="https://github.com/cshen98" target="_blank" class="menu-item">github</a></h6>
+            <div class="offset-by-four two columns">
+              <h6 class="menu-item">
+                <a href="https://github.com/cshen98" target="_blank" class="menu-item">github</a>
+              </h6>
             </div>
             <div class="two columns">
-              <h6 class="menu-item"><a href="https://www.linkedin.com/in/shencarl/" target="_blank" class="menu-item">linkedin</a></h6>
-            </div>
-            <div class="two columns">
-                <h6 class="menu-item"><a href="https://twitter.com/cshen91" target="_blank" class="menu-item">twitter</a></h6>
-            </div>
-            <div class="two columns">
-                <h6 class="menu-item"><a href="https://www.instagram.com/carlshen98/" target="_blank" class="menu-item">instagram</a></h6>
+              <h6 class="menu-item">
+                <a href="https://www.linkedin.com/in/cshen98/" target="_blank" class="menu-item">linkedin</a>
+              </h6>
             </div>
           </div>
         </div>
@@ -69,17 +77,36 @@
               <p>Hi! I'm a computer engineering student at the University of Waterloo in Canada and am currently a software engineering intern at Yahoo on the Daily Fantasy Sports Backend team.</p>
             </div>
           </div>
+          <!--<div class="row">
+            <div class="twelve columns">
+              <h5 class="section-title">Experience</h5>
+            </div>
+          </div>
           <div class="row">
-            <div class="four columns">
+            <div class="six columns">
+              <h6 class="heading-title">Student</h6>
               <p></p>
             </div>
-            <div class="four columns">
-              <p></p>
-            </div>
-            <div class="four columns">
+            <div class="six columns">
+              <h6 class="heading-title">Software Developer</h6>
               <p></p>
             </div>
           </div>
+          <div class="row">
+            <div class="twelve columns">
+              <h5 class="section-title">Interests</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <h6 class="heading-title">Technical</h6>
+              <p></p>
+            </div>
+            <div class="six columns">
+              <h6 class="heading-title">Personal</h6>
+              <p></p>
+            </div>
+          </div>-->
         </div>
       </div>
       <div class="animated not-active" id="projects_content-wrapper">
@@ -89,11 +116,64 @@
               <p>Here are some projects I've been working on and have worked on in the past. Currently, I've been focusing on leveraging the Apache Spark suite for applications in hockey analytics.</p>
             </div>
           </div>
-          <div class="row">
+          <!--<div class="row">
             <div class="twelve columns">
-              <p></p>
+              <h5 class="section-title">Spark Hockey</h5>
             </div>
           </div>
+          <div class="row">
+            <div class="six columns">
+              <h6 class="heading-title">NHL Redzone</h6>
+              <p>Leveraging Apache Kafka and Apache Spark (Spark Streaming) to monitor current live NHL games by parsing data from publicly available parts of the NHL live play by play stats API to recommend a game to watch based on a variety of parameters, including game flow, game situations, and more.</p>
+            </div>
+            <div class="six columns">
+              <h6 class="heading-title">NHL Projections</h6>
+              <p>Using Apache Spark (Core/SQL and MLlib) to implement a model for projecting team-level results based on a variety of basic and advanced statistics.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <h6 class="heading-title">Fantasy Player Recommendations</h6>
+              <p>Implemented a script that scraped data from the ESPN fantasy site to provide tailored recommendations of potential free agent/waiver players to add.</p>
+            </div>
+            <div class="six columns">
+              <h6 class="heading-title">Hockey Stats Data Explorer</h6>
+              <p>Leveraged an Apache Druid in memory data store to build an interactive tool for exploring and visualizing a static downloaded hockey stats data set.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <h5 class="section-title">Published Works</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <h6 class="heading-title">Parallel User Behavior Prediction Model</h6>
+              <p>Secondary author of publication in Cluster Computing 2017 Vol 20 Iss 2 (DOI 10.1007/s10586-017-0749-z)</p>
+              <p>Abstract:In order to develop smart home systems’ abilities for learning users’ behaviors autonomously and offering services spontaneously, a user behavior prediction model based on parallel back propagation neural network (BPNN) and k-nearest neighbor (KNN) algorithms is introduced in this paper. Based on MapReduce, a parallel BPNN algorithm is proposed to improve the prediction accuracy and speed, and a parallel KNN algorithm is developed for user decision-making rule selection. The experimental results indicate that the proposed model is significantly better than traditional user behavior prediction models in term of prediction accuracy and speed. A case study on smart home also illustrates the effectiveness of the proposed model.</p>
+              <p>Contribution: Ported components of a novel user behavior prediction model to a MapReduce & Hadoop framework to improve the speed of the model.</p>
+            </div>
+            <div class="six columns">
+              <h6 class="heading-title">WiFi Indoor Localization System</h6>
+              <p>Secondary author of paper in 2017 IEEE Conference on CSCWD (ISBN: 978-1-5090-6198-3)</p>
+              <p>Abstract: This paper proposes a novel Wi-Fi based indoor localization system. Specially designed Wi-Fi beacons are set up to detect the real time signal strengths of Wi-Fi access points and send this data to a server. By establishing the distances along flat planes between beacons and a mobile tag, the location of the mobile tag is estimated by finding the most likely intersection between the planes corresponding to the tag. This proposed approach eliminates several bottlenecks that affect time and cost efficiency, as the localization technique developed in this project uses the relative signal strengths of the smartphone compared to signal strengths recorded at beacon devices which eliminates the requirements of known locations for Wi-Fi access points and control of the access points. Preliminary experimentation results show that the proposed approach can achieve a localization accuracy comparable to a fingerprint approach.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <h5 class="section-title">Healthcare Projects</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <h6 class="heading-title">Bed Monitoring System</h6>
+              <p>Built a system to recognize bed-related situations and monitor sleep patterns using a decision tree generated by applying a Weka machine learning algorithm on an experimentally gathered training data set.</p>
+            </div>
+            <div class="six columns">
+              <h6 class="heading-title">Fall Detection App</h6>
+              <p>Built an Android application to recognize falls using a state machine approach based on accelerometer data and alert a contact of potential fall events using the Twilio API.</p>
+            </div>
+          </div>-->
         </div>
       </div>
       <div class="footer-wrapper"></div>
@@ -102,11 +182,21 @@
       <div class="container">
         <div class="row nav-row">
           <div class="offset-by-two three columns">
-              <h3 class="nav-item" id="aboutme_nav-item"><a href="#aboutme" onclick="onNavMenuItemClick(this)" class="menu-item" id="aboutme_nav-menu-item"><span class="dark-green"><span class="medium-bold">A</span>bout me</a></span></h3>
+            <h3 class="nav-item" id="aboutme_nav-item">
+              <a href="#aboutme" onclick="onNavMenuItemClick(this)" class="menu-item" id="aboutme_nav-menu-item">
+                <span class="dark-green">
+                  <span class="medium-bold">A</span>bout me</a>
+              </span>
+            </h3>
           </div>
           <div class="two columns">&nbsp;</div>
           <div class="three columns">
-              <h3 class="nav-item" id="projects_nav-item"><a href="#projects" onclick="onNavMenuItemClick(this)" class="menu-item"id="projects_nav-menu-item"><span class="dark-green"><span class="medium-bold">P</span>rojects</a></span></h3>
+            <h3 class="nav-item" id="projects_nav-item">
+              <a href="#projects" onclick="onNavMenuItemClick(this)" class="menu-item" id="projects_nav-menu-item">
+                <span class="dark-green">
+                  <span class="medium-bold">P</span>rojects</a>
+              </span>
+            </h3>
           </div>
         </div>
       </div>

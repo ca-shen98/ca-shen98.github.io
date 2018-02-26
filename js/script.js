@@ -30,7 +30,7 @@ function init() {
             location.hash = '';
         }
     } else {
-        location.hash = '';
+        location.hash = '# ';
     }
 }
 

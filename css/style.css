@@ -121,6 +121,14 @@ h3.nav-item {
     margin-bottom: 0px;
     text-align: center;
 }
+h5.section-title {
+    font-size: 1.7rem;
+    text-align: center;
+}
+h6.heading-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
 h6.menu-item {
     margin-bottom: 0px;
     text-align: center;
@@ -162,6 +170,9 @@ img.landing-button:hover, img.landing-button.current-item {
         margin-top: 3px;
         width: 50px;
     }
+}
+p {
+    font-size: 1.4rem;
 }
 span.dark-green {
     color: darkgreen;
