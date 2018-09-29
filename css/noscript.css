@@ -1,3 +1,8 @@
 .only-with-js {
   display: none;
 }
+
+.prompt {
+  padding-top: 2px;
+  text-align: center;
+}
