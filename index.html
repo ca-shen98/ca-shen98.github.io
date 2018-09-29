@@ -25,6 +25,17 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <script src="js/script.js"></script>
+
+  <noscript>
+    <style>
+      div.nav-column {
+        display: none;
+      }
+      div.header-wrapper {
+        display: none;
+      }
+    </style>
+  </noscript>
 </head>
 
 <body>
@@ -95,7 +106,14 @@
     <div class="nav-wrapper animated">
       <div class="container">
         <div class="row nav-row">
-          <div class="offset-by-two three columns">
+          <noscript>
+            <div class="twelve columns">
+              <h3 class="nav-text">
+                Please enable Javascript to access all parts of the site.
+              </h3>
+            </div>
+          </noscript>
+          <div class="nav-column offset-by-two three columns">
             <h3 class="nav-item" id="aboutme_nav-item">
               <a href="#aboutme" onclick="onNavMenuItemClick(this)" class="menu-item" id="aboutme_nav-menu-item">
                 <span class="dark-green">
@@ -103,8 +121,8 @@
               </span>
             </h3>
           </div>
-          <div class="two columns">&nbsp;</div>
-          <div class="three columns">
+          <div class="nav-column two columns">&nbsp;</div>
+          <div class="nav-column three columns">
             <h3 class="nav-item" id="projects_nav-item">
               <a href="#projects" onclick="onNavMenuItemClick(this)" class="menu-item" id="projects_nav-menu-item">
                 <span class="dark-green">
