@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -66,6 +66,12 @@
               </h6>
             </div>
           </div>
+          
+            <noscript>
+              <div class="row">
+                <p class="prompt">This site is best viewed with javascript enabled.</p>
+              </div>
+            </noscript>
         </div>
       </div>
       <div class="animated not-active" id="aboutme_content-wrapper">
@@ -92,7 +98,7 @@
       </div>
       <div class="footer-wrapper"></div>
     </div>
-    <div class="nav-wrapper animated">
+    <div class="only-with-js nav-wrapper animated">
       <div class="container">
         <div class="row nav-row">
           <div class="offset-by-two three columns">
