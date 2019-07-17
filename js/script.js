@@ -1,5 +1,5 @@
 var _currentAnchor = '';
-var VALID_ANCHORS = [ '', 'aboutme', 'projects' ];
+var VALID_ANCHORS = [ '', 'aboutme' ];
 
 function init() {
     window.onhashchange = function() {
