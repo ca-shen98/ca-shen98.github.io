@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata -->
+  <meta charset="utf-8">
+  <title>Carl Shen</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" href="resources/icon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <noscript>
+    <style>
+      div.nav-column {
+        display: none;
+      }
+      div.header-wrapper {
+        display: none;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="body-wrapper">
+      <div class="header-wrapper">
+        <a href="#" onclick="onNavMenuItemClick(this)">
+          <img src="resources/icon.png" class="landing-button animated current-item" id="_nav-item" />
+        </a>
+      </div>
+      <div class="content-wrapper animated" id="_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="offset-by-three six columns title-row">
+              <h1 class="name-title">
+                <span class="dark-green"><span class="medium-bold">C</span>arl <span class="medium-bold">Shen</span></span>
+              </h1>
+            </div>
+          </div>
+          <div class="row subtitle-row">
+            <div class="offset-by-five two columns">
+              <h6 class="menu-item">
+                <a href="mailto:carl.shen@uwaterloo.ca" class="menu-item">email</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animated not-active" id="aboutme_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <p>More to come. For now, check out my <a href="https://linkedin.com/in/cshen98">LinkedIn</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="animated not-active" id="thoughts_content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <p>More to come.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-wrapper"></div>
+    </div>
+    <div class="nav-wrapper animated">
+      <div class="container">
+        <div class="row nav-row">
+          <noscript>
+            <div class="twelve columns">
+              <h3 class="nav-text">
+                Please enable Javascript to access all parts of the site.
+              </h3>
+            </div>
+          </noscript>
+          <div class="nav-column offset-by-two three columns">
+            <h3 class="nav-item" id="aboutme_nav-item">
+              <a href="#aboutme" onclick="onNavMenuItemClick(this)" class="menu-item" id="aboutme_nav-menu-item">
+                <span class="dark-green">
+                  <span class="medium-bold">A</span>bout me</a>
+              </span>
+            </h3>
+          </div>
+          <div class="nav-column two columns">&nbsp;</div>
+          <div class="nav-column three columns">
+            <h3 class="nav-item" id="thoughts_nav-item">
+              <a href="#thoughts" onclick="onNavMenuItemClick(this)" class="menu-item" id="thoughts_nav-menu-item">
+                <span class="dark-green">
+                  <span class="medium-bold">T</span>houghts</a>
+              </span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>init();</script>
+</body>
+
+</html>
