@@ -1,0 +1,16 @@
+var sections = {
+  career: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Career_sum9x#_lu2I0",
+  interests: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Interests_sueZZ#_lu_NN",
+  activities: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Activities_suTSM#_luSUT",
+  consumption: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Consumption_sudVa#_lubk3",
+  travel_gallery: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Travel-Gallery_suBDr#_lucTv",
+  food_cooking: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Food-Cooking_sukOA#_luZCM",
+  routine_setups: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Routine-Setups_su0l7#_luY1R",
+};
+function redirect(anchorHash) {
+  var redirectLink = "https://coda.io/d/Me-Carl_db5WBdDsPFg/Hi-Im-Carl_suoPU#_lu6CE";
+  if (sections.hasOwnProperty(anchorHash.toLowerCase())) {
+    redirectLink = sections[anchorHash];
+  } else { location.hash = ''; }
+  setTimeout(function () { window.location.replace(redirectLink); }, 1000);
+};
