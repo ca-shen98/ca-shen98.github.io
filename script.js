@@ -8,7 +8,7 @@ var sections = {
   routine_setups: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Routine-Setups_su0l7#_luY1R",
 };
 function redirect(anchorHash) {
-  var redirectLink = "https://coda.io/d/Me-Carl_db5WBdDsPFg/Hi-Im-Carl_suoPU#_lu6CE";
+  var redirectLink = "https://coda.io/@ca-shen98/me-carl";
   if (sections.hasOwnProperty(anchorHash.toLowerCase())) {
     redirectLink = sections[anchorHash];
   } else { location.hash = ''; }
