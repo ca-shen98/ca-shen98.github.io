@@ -4,8 +4,6 @@ var sections = {
   activities: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Activities_suTSM#_luSUT",
   consumption: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Consumption_sudVa#_lubk3",
   travel_gallery: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Travel-Gallery_suBDr#_lucTv",
-  food_cooking: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Food-Cooking_sukOA#_luZCM",
-  routine_setups: "https://coda.io/d/Me-Carl_db5WBdDsPFg/Routine-Setups_su0l7#_luY1R",
 };
 function redirect(anchorHash) {
   var redirectLink = "https://coda.io/@ca-shen98/me-carl";
