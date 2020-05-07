@@ -5,4 +5,3 @@ About: [ca-shen98/About](https://www.notion.so/cashen98/About-ad2724dd10344347a2
 Online presence
 - [ca.shen98 on Instagram](https://instagram.com/ca.shen98)
 - [cashen98 for LinkedIn url](http://linkedin.com/in/cashen98)
-- [ca_shen98 on Twitter](https://twitter.com/ca_shen98)
