@@ -4,6 +4,6 @@ Pin: https://www.notion.so/cashen98/Hiding-blocks-in-shared-Notion-pages-37d75e8
 
 About: [cashen98/About](https://www.notion.so/cashen98/About-ad2724dd10344347a243c519b0fb6187)
 
-Online presence
+Online presence (elsewhere):
 - [ca.shen98 on Instagram](https://instagram.com/ca.shen98)
 - [cashen98 for LinkedIn url](http://linkedin.com/in/cashen98)
