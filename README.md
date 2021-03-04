@@ -6,4 +6,4 @@ About: [cashen98/About](https://www.notion.so/cashen98/About-ad2724dd10344347a24
 
 Online presence (elsewhere):
 - [ca.shen98 on Instagram](https://instagram.com/ca.shen98)
-- [cashen98 for LinkedIn url](http://linkedin.com/in/cashen98)
+- [LinkedIn](http://linkedin.com/in/cashen98)
