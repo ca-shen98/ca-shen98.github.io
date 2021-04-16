@@ -5,5 +5,5 @@ Pin: [Hiding blocks in shared Notion pages](https://www.notion.so/cashen98/Hidin
 About: [cashen98/About](https://www.notion.so/cashen98/About-ad2724dd10344347a243c519b0fb6187)
 
 Online presence (elsewhere):
-- [ca.shen98 on Instagram](https://instagram.com/ca.shen98)
-- [LinkedIn](http://linkedin.com/in/cashen98)
+- [@ca.shen98 on Instagram](https://instagram.com/ca.shen98)
+- [@ /cashen98 on LinkedIn](http://linkedin.com/in/cashen98)
