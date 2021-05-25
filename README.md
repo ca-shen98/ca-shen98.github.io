@@ -8,4 +8,5 @@ Building: [A Notion Menu Bar App as a Second Brain](https://www.notion.so/cashen
 
 Online presence (elsewhere):
 - [ca.shen98 on Instagram](https://instagram.com/ca.shen98)
+- [@ca_shen98 on Twitter](https://twitter.com/ca_shen98)
 - [/cashen98 on LinkedIn](https://linkedin.com/in/cashen98)
