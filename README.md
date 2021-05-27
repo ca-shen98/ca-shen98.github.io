@@ -1,4 +1,4 @@
-# [ca-shen98.github.io](https://ca-shen98.github.io)
+# Carl Shen
 
 Pin: [Hiding blocks in shared Notion pages](https://www.notion.so/cashen98/Hiding-blocks-in-shared-Notion-pages-37d75e8dc80e437d8ac4540287f01b72)
 
